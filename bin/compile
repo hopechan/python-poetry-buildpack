@@ -60,7 +60,7 @@ fi
 
 # Plugin needs to be installed explicitly in future versions of Poetry
 log "Install poetry-plugin-export"
-poetry add poetry-plugin-export
+poetry self add poetry-plugin-export
 
 REQUIREMENTS_FILE="requirements.txt"
 
